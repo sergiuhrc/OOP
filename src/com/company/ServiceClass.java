@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.Consumers.CarnivoreConsumersPackage.CarnivoreConsumers;
+import com.company.Consumers.HerbivoreConsumersPackage.HerbivoreConsumers;
+
 public class ServiceClass {
 
 
@@ -21,4 +24,21 @@ public class ServiceClass {
             return result;
     }
 
+
+    public static  void tryToEat(Object obj1 ,Object obj2) throws  EatingException{
+
+               if (obj1 instanceof CarnivoreConsumers && obj2 instanceof HerbivoreConsumers){
+                   System.out.println("I can eat you sorry");
+
+
+
+               }else {
+
+                    throw new EatingException("Message: "+obj1.getClass() +" can't eat "+obj2.getClass()+" becouse of hierarchy");
+                  // System.out.println("I can't eat you ");
+               }
+
+
+
+    }
 }

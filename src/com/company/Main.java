@@ -41,22 +41,42 @@ public class Main {
 
 
         ServiceClass sc = new ServiceClass();
+
+
+
+//Exceptions Homework
+        sc.tryToEat(lion,deer);
+        try {
+            sc.tryToEat(worm,deer);
+        }catch (EatingException e ){
+
+            System.out.println("User friendly message to avoid this error");
+        }
+
+
+
+
+        System.out.println("Still working");
+
+
+/**
+
         LinkedList<Object> list_of_objects = new LinkedList();
-        list_of_objects.add(eagle);
-        list_of_objects.add(lion);
-        list_of_objects.add(bacteria);
-        list_of_objects.add(tiger);
-        list_of_objects.add(worm);
-        list_of_objects.add(mushroom);
-        list_of_objects.add(deer);
-        list_of_objects.add(horse);
-        list_of_objects.add(sheep);
-        list_of_objects.add(bear);
-        list_of_objects.add(hedgehog);
-        list_of_objects.add(pig);
-        list_of_objects.add(crab);
-        list_of_objects.add(tree);
-        list_of_objects.add(flower);
+                list_of_objects.add(eagle);
+                list_of_objects.add(lion);
+                list_of_objects.add(bacteria);
+                list_of_objects.add(tiger);
+                list_of_objects.add(worm);
+                list_of_objects.add(mushroom);
+                list_of_objects.add(deer);
+                list_of_objects.add(horse);
+                list_of_objects.add(sheep);
+                list_of_objects.add(bear);
+                list_of_objects.add(hedgehog);
+                list_of_objects.add(pig);
+                list_of_objects.add(crab);
+                list_of_objects.add(tree);
+                list_of_objects.add(flower);
         for (int i = 0; i <list_of_objects.size() ; i++) {
             for (int j = 0; j <list_of_objects.size()-1 ; j++) {
                 sc.checkSiblings(list_of_objects.get(i),list_of_objects.get(j+1));
@@ -80,5 +100,6 @@ public class Main {
         crab.canEat();
         tree.canEat();
         flower.canEat();
+*/
     }
 }

@@ -12,7 +12,12 @@ public class Eagle  extends CarnivoreConsumers {
         this.wingspan = wingspan;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Eagle{" +
+                "subspecies='" + subspecies + '\'' +
+                ", speed=" + speed +
+                ", wingspan=" + wingspan +
+                '}';
+    }
 }
