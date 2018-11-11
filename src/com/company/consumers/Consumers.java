@@ -1,4 +1,4 @@
-package com.company.Consumers;
+package com.company.consumers;
 
 public abstract class Consumers {
     public abstract void  canEat();

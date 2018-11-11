@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.Consumers.CarnivoreConsumersPackage.Eagle;
+import com.company.consumers.CarnivoreConsumersPackage.Eagle;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,6 +1,6 @@
-package com.company.Recyclers.Detritivores;
+package com.company.recyclers.Detritivores;
 
-import com.company.Recyclers.Recyclers;
+import com.company.recyclers.Recyclers;
 
 public abstract class Detritivores extends Recyclers {
     @Override

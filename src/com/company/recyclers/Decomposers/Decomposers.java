@@ -1,6 +1,6 @@
-package com.company.Recyclers.Decomposers;
+package com.company.recyclers.Decomposers;
 
-import com.company.Recyclers.Recyclers;
+import com.company.recyclers.Recyclers;
 
 public abstract class Decomposers extends Recyclers {
     @Override

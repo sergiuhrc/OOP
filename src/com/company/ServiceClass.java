@@ -1,7 +1,7 @@
 package com.company;
 
-import com.company.Consumers.CarnivoreConsumersPackage.CarnivoreConsumers;
-import com.company.Consumers.HerbivoreConsumersPackage.HerbivoreConsumers;
+import com.company.consumers.CarnivoreConsumersPackage.CarnivoreConsumers;
+import com.company.consumers.HerbivoreConsumersPackage.HerbivoreConsumers;
 
 public class ServiceClass implements TestFoodChain{
 

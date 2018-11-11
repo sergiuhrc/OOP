@@ -1,6 +1,6 @@
-package com.company.Consumers.OmnivoresConsumersPackage;
+package com.company.consumers.OmnivoresConsumersPackage;
 
-import com.company.Consumers.Consumers;
+import com.company.consumers.Consumers;
 
 public class OmnivoresConsumers extends Consumers {
     @Override

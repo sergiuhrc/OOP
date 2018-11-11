@@ -1,6 +1,6 @@
-package com.company.Consumers.CarnivoreConsumersPackage;
+package com.company.consumers.CarnivoreConsumersPackage;
 
-import com.company.Consumers.Consumers;
+import com.company.consumers.Consumers;
 
 import java.util.Objects;
 

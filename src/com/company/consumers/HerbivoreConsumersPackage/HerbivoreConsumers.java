@@ -1,6 +1,6 @@
-package com.company.Consumers.HerbivoreConsumersPackage;
+package com.company.consumers.HerbivoreConsumersPackage;
 
-import com.company.Consumers.Consumers;
+import com.company.consumers.Consumers;
 
 public class HerbivoreConsumers extends Consumers {
     @Override

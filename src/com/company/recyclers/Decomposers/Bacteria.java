@@ -1,4 +1,4 @@
-package com.company.Recyclers.Decomposers;
+package com.company.recyclers.Decomposers;
 
 public class Bacteria extends  Decomposers {
 }

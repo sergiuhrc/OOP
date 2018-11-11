@@ -1,4 +1,4 @@
-package com.company.Producers;
+package com.company.producers;
 
 public class Tree extends Producer {
     @Override

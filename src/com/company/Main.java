@@ -1,11 +1,11 @@
 package com.company;
 
-import com.company.Consumers.CarnivoreConsumersPackage.*;
-import com.company.Consumers.HerbivoreConsumersPackage.*;
-import com.company.Consumers.OmnivoresConsumersPackage.*;
-import com.company.Producers.*;
-import com.company.Recyclers.Decomposers.*;
-import com.company.Recyclers.Detritivores.*;
+import com.company.consumers.CarnivoreConsumersPackage.*;
+import com.company.consumers.HerbivoreConsumersPackage.*;
+import com.company.consumers.OmnivoresConsumersPackage.*;
+import com.company.producers.*;
+import com.company.recyclers.Decomposers.*;
+import com.company.recyclers.Detritivores.*;
 
 import java.util.ArrayList;
 
@@ -48,25 +48,25 @@ public class Main {
         Tree tree = new Tree();
         Flower flower = new Flower();
 
-        ArrayList<Object> list_of_objects = new ArrayList<>();
-        list_of_objects.add(eagle);
-        list_of_objects.add(lion);
-        list_of_objects.add(bacteria);
-        list_of_objects.add(tiger);
-        list_of_objects.add(worm);
-        list_of_objects.add(mushroom);
-        list_of_objects.add(deer);
-        list_of_objects.add(horse);
-        list_of_objects.add(sheep);
-        list_of_objects.add(bear);
-        list_of_objects.add(hedgehog);
-        list_of_objects.add(pig);
-        list_of_objects.add(crab);
-        list_of_objects.add(tree);
-        list_of_objects.add(flower);
-        for (int i = 0; i <list_of_objects.size() ; i++) {
-            for (int j = 0; j <list_of_objects.size()-1 ; j++) {
-                sc.checkSiblings(list_of_objects.get(i),list_of_objects.get(j+1));
+        ArrayList<Object> listOfObejects = new ArrayList<>();
+        listOfObejects.add(eagle);
+        listOfObejects.add(lion);
+        listOfObejects.add(bacteria);
+        listOfObejects.add(tiger);
+        listOfObejects.add(worm);
+        listOfObejects.add(mushroom);
+        listOfObejects.add(deer);
+        listOfObejects.add(horse);
+        listOfObejects.add(sheep);
+        listOfObejects.add(bear);
+        listOfObejects.add(hedgehog);
+        listOfObejects.add(pig);
+        listOfObejects.add(crab);
+        listOfObejects.add(tree);
+        listOfObejects.add(flower);
+        for (int i = 0; i <listOfObejects.size() ; i++) {
+            for (int j = 0; j <listOfObejects.size()-1 ; j++) {
+                sc.checkSiblings(listOfObejects.get(i),listOfObejects.get(j+1));
 
             }
 
