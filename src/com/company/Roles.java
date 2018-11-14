@@ -1,0 +1,7 @@
+package com.company;
+
+public enum Roles {
+    SALESAGENT,ANALYST,TECHSUPPORT,COUSTUMERSUPPORT,FINANCEEXECUTIVE,OWNER;
+
+
+}
