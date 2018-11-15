@@ -87,4 +87,11 @@ public class User {
                 ", balance=" + balance +
                 '}';
     }
+    public String toStringUserName(){
+        return "User{" +
+                "name=" + name +
+                ", balance=" + balance +
+
+                '}';
+    }
 }

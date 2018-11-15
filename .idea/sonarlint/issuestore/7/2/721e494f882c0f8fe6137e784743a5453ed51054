@@ -1,0 +1,8 @@
+
+%squid:RedundantThrowsDeclarationCheck"fRemove the declaration of thrown exception 'com.company.EatingException' which is a runtime exception.(‚έπ†ώÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(η΄ν•
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Π†ξ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Γ΄Ι”
